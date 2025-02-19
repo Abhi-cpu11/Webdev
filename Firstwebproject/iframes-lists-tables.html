@@ -1,0 +1,67 @@
+<!-- The DOCTYPE declaration defines the document as an HTML5 document -->
+<!DOCTYPE html>
+<!-- The html tag encloses the entire HTML document. The lang attribute declares the language of the document -->
+<html lang="en-us">
+  <!--opening tag-->
+  <head>
+    <!--indentation so ez to read, if the tag is inside another tag.-->
+    <!--Meta gives the browser instructions on how to control the page's dimensions and scaling.-->
+    <meta charset="utf-8" />
+
+    <!-- Another Meta gives the browser instructions on how to control the page's dimensions and scaling -->
+    <meta name="viewport" content="initial-scale=2.5, user-scalable=yes" />
+    <!--Closing tag-->
+  </head>
+  <body>
+    <!--  creates a link to index.html -->
+    <!--attributes in lowercase-->
+    <a href="index.html">index.html Link</a>
+    <!--Takes a break from text and is self-closing-->
+    <br />
+    <!-- creates a link to links-and-images.html, attributes should be quoted -->
+    <a href="links-and-images.html">LA link</a>attributes as lowercase.
+    <!-- Table element to organize data into rows and columns -->
+    <table border="1">
+      <!-- Table row containing table headers -->
+      <tr>
+        <th>Family Member Name</th>
+        <th>How We Are Related</th>
+        <th>Where They Live</th>
+      </tr>
+      <!-- Table row containing data -->
+      <tr>
+        <td>KAM</td>
+        <td>Brother</td>
+        <td>Winnipeg</td>
+      </tr>
+      <tr>
+        <td>Jup</td>
+        <td>Uncle</td>
+        <td>Winnipeg</td>
+      </tr>
+      <tr>
+        <td>Ajay</td>
+        <td>Dad</td>
+        <td>Winnipeg</td>
+      </tr>
+    </table>
+    <!-- Opening  -->
+    <form>
+      <!-- Fieldset groups related input fields together -->
+      <fieldset>
+        <!-- Legend provides a title for the fieldset -->
+        <legend>First And Last Name</legend>
+        <!-- Label for the first name input field -->
+        <label for="fname">First name:</label><br />
+        <!-- Text input field for first name -->
+        <input type="text" id="fname" name="fname" value="Charren" /><br />
+
+        <!-- Label for the last name input field -->
+        <label for="lname">Last name:</label><br />
+        <!-- Text input field for last name -->
+        <input type="text" id="lname" name="lname" value="Gambir" />
+        <!--Closing -->
+      </fieldset>
+    </form>
+  </body>
+</html>
